@@ -7,3 +7,5 @@ require (
 	github.com/pistolricks/validation v0.1.0
 	golang.org/x/crypto v0.32.0
 )
+
+retract v0.1.0

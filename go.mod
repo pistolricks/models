@@ -1,4 +1,4 @@
-module github.com/pistolricks/greetings
+module github.com/pistolricks/models
 
 go 1.23.5
 

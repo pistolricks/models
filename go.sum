@@ -1,0 +1,6 @@
+github.com/lib/pq v1.10.9 h1:YXG7RB+JIjhP29X+OtkiDnYaXQwpS4JEWq7dtCCRUEw=
+github.com/lib/pq v1.10.9/go.mod h1:AlVN5x4E4T544tWzH6hKfbfQvm3HdbOxrmggDNAPY9o=
+github.com/pistolricks/validation v0.1.0 h1:KRZYPpoaL4Zgo/pTwM0VaN8cR9dY1BI9q7KIvgHgyIo=
+github.com/pistolricks/validation v0.1.0/go.mod h1:ss7NrMOabrIrwpCV0Mk7ncb0arMlU9RzPTY1xi2zk+k=
+golang.org/x/crypto v0.32.0 h1:euUpcYgM8WcP71gNpTqQCn6rC2t6ULUPiOzfWaXVVfc=
+golang.org/x/crypto v0.32.0/go.mod h1:ZnnJkOaASj8g0AjIduWNlq2NRxL0PlBrbKVyZ6V/Ugc=

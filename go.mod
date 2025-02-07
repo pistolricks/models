@@ -8,4 +8,9 @@ require (
 	golang.org/x/crypto v0.32.0
 )
 
+require (
+	github.com/indrasaputra/hashids v0.2.0 // indirect
+	github.com/speps/go-hashids v2.0.0+incompatible // indirect
+)
+
 retract v0.1.0

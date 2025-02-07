@@ -5,7 +5,6 @@ import (
 	"crypto/sha256"
 	"database/sql"
 	"errors"
-	"github.com/indrasaputra/hashids"
 	"github.com/pistolricks/validation"
 
 	"golang.org/x/crypto/bcrypt"
@@ -23,13 +22,13 @@ func (u *User) IsAnonymous() bool {
 }
 
 type User struct {
-	ID        hashids.ID `json:"id"`
-	CreatedAt time.Time  `json:"created_at"`
-	Name      string     `json:"name"`
-	Email     string     `json:"email"`
-	Password  password   `json:"-"`
-	Activated bool       `json:"activated"`
-	Version   int        `json:"-"`
+	ID        int64     `json:"id"`
+	CreatedAt time.Time `json:"created_at"`
+	Name      string    `json:"name"`
+	Email     string    `json:"email"`
+	Password  password  `json:"-"`
+	Activated bool      `json:"activated"`
+	Version   int       `json:"-"`
 }
 
 type password struct {
